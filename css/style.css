@@ -137,7 +137,8 @@ body{
     width: 200px;
     grid-column: 4/5;
     grid-row: 1/2;
-    margin-right: 90px;
+    margin-right: 50px;
+    
 }
 .texboxlittle1{
     align-self: start;
@@ -151,11 +152,10 @@ body{
 }
 .t{
     font-size: 60px;
-    text-align: center;
 }
 .m{
-    font-size: 20px;
-    text-align: left;
+    font-size: 25px;
+    width: 250px;
 }
 
 
