@@ -1,8 +1,58 @@
 @import url(variables.css);
 
+
+@font-face {
+    font-family: AvenirHeavy;
+    src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+@font-face {
+    font-family: AvenirRoman;
+    src: url(/storage/font/AvenirLTStd-Roman.ttf);
+
+}
+
+
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+body{
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.image {
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info titulo{
+    font-family: AvenirHeavy;
+    font-size: 6rem;
+}
+.textBoxes {
+    display: flex;
+    flex-direction: column;
+}
+.textBoxes number{
+    color: rgb(115, 115, 115);
+    font-family: AvenirHeavy;
+}
+.textBoxes parraf{
+    font-family: AvenirRoman;
+}
+
+.textBoxes__1 {
+}
+.textBoxes__2 {
+}
