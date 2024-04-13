@@ -12,11 +12,6 @@
 }
 
 
-
-
-
-
-
 *{
     padding: 0;
     margin: 0;
@@ -25,3 +20,62 @@
 
 
 
+
+
+.web{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imgCUBE{
+    width: 50%;
+
+}
+
+.imgCUBE img{
+    width: 100%;
+    height: 60rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6rem;
+    width: 50%;
+}
+
+
+
+
+
+.infoTitle{
+}
+.infoTitle h1{
+    font-family: AvenirHeavy;
+    font-size: 3rem;
+}
+.infoTitle p{
+    font-family: AvenirRoman;
+    margin-bottom: 30px;
+}
+.info a{
+    background: #000;
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    color: #fff;
+    font-family: AvenirRoman;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+
+.textBoxes h2{
+    font-family: AvenirHeavy;
+    color: #767676;
+}
+.textBoxes p{
+    font-family: AvenirRoman;
+}
