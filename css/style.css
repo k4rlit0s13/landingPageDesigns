@@ -30,39 +30,34 @@ body {
 
 .jump {
     /* background: #7af0ea76; */
-    margin: 1rem
+    padding: 1rem 3rem 2rem 3rem;
+    margin:  0 1rem 0;
 }
 
 .jumpTitle {
     font-family: avenirHeavy;
     font-size: 3rem;
     line-height: 60px;
+    padding-bottom: 0.5rem;
 }
 
 .jumpParraf {
     font-family: avenirRoman;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .jumpBotton {
 
     background: #000;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
 
     color: #fff;
     font-family: avenirRoman;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
 
-}
-
-
-
-
-.foto1 {
-    margin: 1rem;
 }
 
 
@@ -71,9 +66,9 @@ body {
     margin: 0 5rem 0 5rem;
 }
 
-
-
-.imgBlock2 {
-    background: #88f07a76;
-
+.foto1 {
+    margin: 0.8rem;
 }
+
+
+
