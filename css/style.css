@@ -45,6 +45,7 @@ main {
 .Title{
     /* background-color: #801076; */
     width: 50%;
+    padding-top: 3%;
 }
 .TitleBox{
     /* background-color: #e946a5; */
@@ -53,6 +54,7 @@ main {
 .TitleBox h1{
     font-family: avenirHeavy;
     font-size: 6rem;
+    line-height: 90px;
 }
 
 
