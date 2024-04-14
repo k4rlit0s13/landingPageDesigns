@@ -22,8 +22,12 @@
 
 
 main {
-    background-color: #864339;
-
+    /* background-color: #804c44; */
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10% 3% 10%;  
+    height: 50%;
+    gap: 80px;
 }
 
 
@@ -32,53 +36,56 @@ main {
 
 
 .head { 
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
-    align-self: center;
-
+    flex-direction: row;
+    gap: 20px;
 }
 
 .Title{
-    background-color: #e946dc;
+    /* background-color: #801076; */
     width: 50%;
 }
 .TitleBox{
-    background-color: #e946a5;
+    /* background-color: #e946a5; */
     max-width: fit-content;
 }
 .TitleBox h1{
-    background-color: #12b2aa;
     font-family: avenirHeavy;
+    font-size: 6rem;
 }
 
 
 
 
 .Parraf{
-    background-color: #121ab2;
+    /* background-color: #121ab2; */
     width: 50%;
+    padding-top: 40px;
 }
 .parrafbox{
-    background-color: #5f63a4;
+    /* background-color: #3cd1d6; */
     max-width: fit-content;
+    padding-top: px;
 }
 .botonbox{
-    background-color: #474a7b;
-    max-width: fit-content;
+    /* background-color: #474a7b; */
+    padding: 10px 0px 10px 0px;
 }
 .parrafbox p { 
-    background-color: #8f0d0d;
+    /* background-color: #8f0d0d; */
     font-family: avenirRoman;
+    font-size: 2rem;
 }
 .botonbox a { 
-
     font-family: avenirRoman;
-
-    
-
     color: #fff;
-    font-family: avenirRoman;
     text-decoration: none;
+    font-size: 2rem;
+
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 8px 10px 8px 10px;
 }
 
 
@@ -89,15 +96,12 @@ main {
 
 
 .foot { 
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* background-color: red; */
 }
 
 .contruction{
+    width: 100%;
     max-width: 100%;
-    max-height:100%;
 }
 
 
