@@ -18,39 +18,62 @@
 }
 
 
+
+
+
 main {
     background-color: #864339;
 
 }
 
+
+
+
+
+
 .head { 
     background-color: blueviolet;
+    display: flex;
+    align-self: center;
 
 }
+
 .Title{
-    background-color: #75b212;
-    max-width: 100%;
+    background-color: #e946dc;
+    width: 50%;
 }
-
 .TitleBox{
-    
+    background-color: #e946a5;
+    max-width: fit-content;
 }
 .TitleBox h1{
     background-color: #12b2aa;
     font-family: avenirHeavy;
 }
+
+
+
+
 .Parraf{
     background-color: #121ab2;
+    width: 50%;
 }
-.head section p { 
+.parrafbox{
+    background-color: #5f63a4;
+    max-width: fit-content;
+}
+.botonbox{
+    background-color: #474a7b;
+    max-width: fit-content;
+}
+.parrafbox p { 
     background-color: #8f0d0d;
     font-family: avenirRoman;
-    text-align: left;
 }
-main .head section a { 
-    background-color: #37c90a;
+.botonbox a { 
+
     font-family: avenirRoman;
-    text-align: left;
+
     
 
     color: #fff;
@@ -58,10 +81,7 @@ main .head section a {
     text-decoration: none;
 }
 
-.botonbox{
-    background-color: #0f7634;
-}
-asdafasag
+
 
 
 
@@ -70,11 +90,14 @@ asdafasag
 
 .foot { 
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contruction{
-    text-align: center;
     max-width: 100%;
+    max-height:100%;
 }
 
 
