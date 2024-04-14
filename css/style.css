@@ -1,8 +1,95 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: avenirHeavy;
+    src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+
+@font-face {
+    font-family: avenirRoman;
+    src: url(/storage/font/AvenirLTStd-Roman.ttf);
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+main {
+    background-color: #864339;
+
+}
+
+.head { 
+    background-color: blueviolet;
+
+}
+.Title{
+    background-color: #75b212;
+    max-width: 100%;
+}
+
+.TitleBox{
+    
+}
+.TitleBox h1{
+    background-color: #12b2aa;
+    font-family: avenirHeavy;
+}
+.Parraf{
+    background-color: #121ab2;
+}
+.head section p { 
+    background-color: #8f0d0d;
+    font-family: avenirRoman;
+    text-align: left;
+}
+main .head section a { 
+    background-color: #37c90a;
+    font-family: avenirRoman;
+    text-align: left;
+    
+
+    color: #fff;
+    font-family: avenirRoman;
+    text-decoration: none;
+}
+
+.botonbox{
+    background-color: #0f7634;
+}
+asdafasag
+
+
+
+
+
+
+.foot { 
+    background-color: red;
+}
+
+.contruction{
+    text-align: center;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
