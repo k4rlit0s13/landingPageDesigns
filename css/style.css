@@ -1,13 +1,17 @@
 @import url(variables.css);
 
 @font-face {
-    font-family: avenirHeavy;
-    src: url();
+    font-family: PlayfairDisplayBold;
+    src: url(/storage/font/PlayfairDisplay-Bold.ttf);
 }
 
 @font-face {
-    font-family: avenirRoman;
-    src: url();
+    font-family: WorkSansRegular;
+    src: url(/storage/font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: WorkSansMedium;
+    src: url(/storage/font/WorkSans-Medium.ttf);
 }
 
 
@@ -21,9 +25,13 @@
 main{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 .LEFT {
     background-color: #ac0f0f;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .LEFTimgcircle {
     background-color: #0f9cac;
@@ -31,10 +39,12 @@ main{
 .LEFTtitle {
     background-color: #0fac6b;
     font-size: 5rem;
+    font-family: PlayfairDisplayBold;
 }
 .LEFTparraf {
     background-color: #5754b8;
     font-size: 2.5rem;
+    font-family: WorkSansRegular;
 }
 .LEFTbotons{
     background-color: #6746a4;
@@ -44,9 +54,33 @@ main{
     background-color: #18511c;
     width: 50%;
 }
+.LEFTboton1 a{
+    background-color: #018b0a;
+    font-size: 2rem;
+    font-family: WorkSansMedium;
+
+    color: #fff;
+    text-decoration: none;
+
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 20px 50px 20px 50px;
+}
 .LEFTboton2 {
     background-color: #9f0fac;
     width: 50%;
+    font-family: WorkSansMedium;
+}
+.LEFTboton2 a{
+    border: 3px solid #000000;
+    font-size: 2rem;
+
+    color: #000000;
+    text-decoration: none;
+
+
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
 }
 .LEFTdowninfo {
     background-color: #a4467e;
@@ -57,6 +91,15 @@ main{
 .LEFTdowninfo section{
     background-color: #5b344b;
     gap: 10px;
+}
+.LEFTdowninfo img{
+    background-color: #87486d;
+    width: 50px;
+}
+.LEFTdowninfo p{
+    background-color: #87486d;
+    font-size: 2.5rem;
+    font-family: WorkSansRegular;
 }
 .RIGHT {
     background-color: #0fac19;
