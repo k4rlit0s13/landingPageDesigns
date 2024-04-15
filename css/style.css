@@ -18,4 +18,46 @@
     box-sizing: border-box;
 }
 
-
+main{
+    display: flex;
+    flex-direction: row;
+}
+.LEFT {
+    background-color: #ac0f0f;
+}
+.LEFTimgcircle {
+    background-color: #0f9cac;
+}
+.LEFTtitle {
+    background-color: #0fac6b;
+    font-size: 5rem;
+}
+.LEFTparraf {
+    background-color: #5754b8;
+    font-size: 2.5rem;
+}
+.LEFTbotons{
+    background-color: #6746a4;
+    display: flex;
+}
+.LEFTboton1 {
+    background-color: #18511c;
+    width: 50%;
+}
+.LEFTboton2 {
+    background-color: #9f0fac;
+    width: 50%;
+}
+.LEFTdowninfo {
+    background-color: #a4467e;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.LEFTdowninfo section{
+    background-color: #5b344b;
+    gap: 10px;
+}
+.RIGHT {
+    background-color: #0fac19;
+}
