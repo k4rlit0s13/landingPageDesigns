@@ -8,77 +8,117 @@
 
 main{
     background-color: blue;
+
+    display: flex;
+    flex-direction: column;
 }
 .TOP {
-    background-color: red
+    background-color: red;
 }
 .DOWN {
-    background-color: rebeccapurple
+    background-color: rebeccapurple;
+
+    display: flex;
+    flex-direction: row;
 }
 .DOWN__block1 {
-    background-color: violet
+    background-color: violet;
 }
 .DOWNblock1__number {
-    background-color: yellow
+    background-color: yellow;
 }
 .DOWNblock1__parraf {
-    background-color: yellowgreen
+    background-color: yellowgreen;
 }
 .DOWNblock1__visual {
-    background-color: maroon
+    background-color: maroon;
 }
 .DOWNblock1__visual_photo {
-    background-color: magenta
+    background-color: magenta;
 }
 .DOWNblock1__visual_photo_subtitle {
-    background-color: lawngreen
+    background-color: lawngreen;
 }
 .DOWNblock1__visual_photo_parraf {
-    background-color: olive
+    background-color: olive;
 }
 .DOWN__block2 {
-    background-color: pink
+    background-color: pink;
 }
 .DOWNblock2__number {
+    background-color: antiquewhite;
 }
 .DOWNblock2__parraf {
+    background-color: palegoldenrod;
 }
 .DOWNblock2__visual {
+    background-color: salmon;
+
 }
 .DOWNblock2__visual_photo {
+    background-color: lightblue;
+
 }
 .DOWNblock2__visual_photo_subtitle {
+    background-color: beige;
+
 }
 .DOWNblock2__visual_photo_parraf {
+    background-color: bisque;
+
 }
 .DOWN__block3 {
-    background-color: green
+    background-color: green;
 }
 .DOWNblock3__number {
+    background-color: lightcyan;
+
 }
 .DOWNblock3__parraf {
+    background-color: wheat;
+
 }
 .DOWNblock3__visual {
+    background-color: palevioletred;
+
 }
 .DOWNblock3__visual_photo {
+    background-color: peru;
+
 }
 .DOWNblock3__visual_photo_subtitle {
+    background-color: palegreen;
+
 }
 .DOWNblock3__visual_photo_parraf {
+    background-color: whitesmoke;
+
 }
 .DOWN__block4 {
-    background-color: rgb(209, 24, 163)
+    background-color: gray;
 }
 .DOWNblock4__number {
+    background-color: rosybrown;
+
 }
 .DOWNblock4__parraf {
+    background-color: royalblue;
+
 }
 .DOWNblock4__visual {
+    background-color: lightgoldenrodyellow;
+
 }
 .DOWNblock4__visual_photo {
+    background-color: lemonchiffon;
+
 }
 .DOWNblock4__visual_photo_subtitle {
+    background-color: lavender;
+
 }
 .DOWNblock4__visual_photo_parraf {
+    background-color: navajowhite;
+
 }
 
