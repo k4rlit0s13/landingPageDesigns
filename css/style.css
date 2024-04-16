@@ -55,6 +55,7 @@ main{
 
     font-size: 7rem;
     font-family: workSansBold;
+    color: #FFF;
 }
 .RIGHT_SIDE_parraf {
     /* background-color: rgb(255, 119, 0); */
@@ -63,6 +64,7 @@ main{
 .RIGHT_SIDE_parraf p{
     /* background-color: rgb(177, 129, 88); */
     font-family: workSansLight;
+    color: #FFF;
 }
 .RIGHT_SIDE_botton {
     /* background-color: rgb(255, 0, 247); */
