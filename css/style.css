@@ -25,35 +25,41 @@ body{
     background: linear-gradient(70deg, #C8CCCF, #97A3A3);
 }
 
-
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 500px;
+    margin: 50px;
 
-    position: relative;
-}
-.section__back {
-    z-index: 1;
-}
-.section__front {
-    z-index: 2;
-}
-.section__up {
-}
-.section__up__title {
-}
-.section__up__parraf {
-}
-.section__up__botton {
-}
-.section__down {
-}
-.section__down__block {
-}
-.section__down__number {
-}
-.section__down__hide {
-}
-.section__down__parraf {
+
+    background-image: url(/storage/img/background.svg);
+    background-repeat: no-repeat;
 }
 
+
+.TOP{
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+}
+.TOP__title h1{
+    font-size: 5rem;
+
+}
+.DOWN{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+
+
+
+    gap:50px;
+    background-color: #97a3a369;
+    border-radius: 30px;
+    padding: 50px;
+}
+.DOWN__BLOCK{
+    gap: 30px;
+}
