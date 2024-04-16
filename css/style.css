@@ -29,10 +29,14 @@ body{
 main{
     display: flex;
     flex-direction: column;
+
+    position: relative;
 }
 .section__back {
+    z-index: 1;
 }
 .section__front {
+    z-index: 2;
 }
 .section__up {
 }
