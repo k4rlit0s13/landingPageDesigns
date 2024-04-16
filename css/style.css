@@ -1,8 +1,55 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: poppinsBold;
+    src: url(/storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(/storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(/storage/font/Poppins-SemiBold.ttf);
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(70deg, #C8CCCF, #97A3A3);
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.section__back {
+}
+.section__front {
+}
+.section__up {
+}
+.section__up__title {
+}
+.section__up__parraf {
+}
+.section__up__botton {
+}
+.section__down {
+}
+.section__down__block {
+}
+.section__down__number {
+}
+.section__down__hide {
+}
+.section__down__parraf {
 }
 
