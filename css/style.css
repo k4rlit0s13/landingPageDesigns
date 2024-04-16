@@ -1,5 +1,15 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: avenirHeavy;
+    src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+
+@font-face {
+    font-family: avenirRoman;
+    src: url(/storage/font/AvenirLTStd-Roman.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -11,114 +21,65 @@ main{
 
     display: flex;
     flex-direction: column;
+    gap: 30px;
+
+    margin: 20px;
 }
 .TOP {
     background-color: red;
+}
+.TOP h1{
+    background-color: rgb(131, 18, 18);
+    font-size: 6rem;
+    font-family: avenirHeavy;
+    line-height: 115px;
 }
 .DOWN {
     background-color: rebeccapurple;
 
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
-.DOWN__block1 {
+.DOWN__block {
     background-color: violet;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.DOWNblock1__number {
+.DOWNblock__number {
     background-color: yellow;
 }
-.DOWNblock1__parraf {
+.DOWNblock__number h2{
+    background-color: rgb(129, 129, 81);
+    font-family: avenirHeavy;
+}
+.DOWNblock__parraf {
     background-color: yellowgreen;
 }
-.DOWNblock1__visual {
+.DOWNblock__parraf p{
+    background-color: yellowgreen;
+    font-family: avenirRoman;
+}
+.DOWNblock__visual {
     background-color: maroon;
 }
-.DOWNblock1__visual_photo {
+.DOWNblock__visual_photo {
     background-color: magenta;
 }
-.DOWNblock1__visual_photo_subtitle {
+.DOWNblock__visual_photo_subtitle {
     background-color: lawngreen;
 }
-.DOWNblock1__visual_photo_parraf {
+.DOWNblock__visual_photo_subtitle h1{
+    background-color: rgb(121, 141, 102);
+    font-family: avenirHeavy;
+}
+.DOWNblock__visual_photo_parraf {
     background-color: olive;
 }
-.DOWN__block2 {
-    background-color: pink;
-}
-.DOWNblock2__number {
-    background-color: antiquewhite;
-}
-.DOWNblock2__parraf {
-    background-color: palegoldenrod;
-}
-.DOWNblock2__visual {
-    background-color: salmon;
-
-}
-.DOWNblock2__visual_photo {
-    background-color: lightblue;
-
-}
-.DOWNblock2__visual_photo_subtitle {
-    background-color: beige;
-
-}
-.DOWNblock2__visual_photo_parraf {
-    background-color: bisque;
-
-}
-.DOWN__block3 {
-    background-color: green;
-}
-.DOWNblock3__number {
-    background-color: lightcyan;
-
-}
-.DOWNblock3__parraf {
-    background-color: wheat;
-
-}
-.DOWNblock3__visual {
-    background-color: palevioletred;
-
-}
-.DOWNblock3__visual_photo {
-    background-color: peru;
-
-}
-.DOWNblock3__visual_photo_subtitle {
-    background-color: palegreen;
-
-}
-.DOWNblock3__visual_photo_parraf {
-    background-color: whitesmoke;
-
-}
-.DOWN__block4 {
-    background-color: gray;
-}
-.DOWNblock4__number {
-    background-color: rosybrown;
-
-}
-.DOWNblock4__parraf {
-    background-color: royalblue;
-
-}
-.DOWNblock4__visual {
-    background-color: lightgoldenrodyellow;
-
-}
-.DOWNblock4__visual_photo {
-    background-color: lemonchiffon;
-
-}
-.DOWNblock4__visual_photo_subtitle {
-    background-color: lavender;
-
-}
-.DOWNblock4__visual_photo_parraf {
-    background-color: navajowhite;
-
+.DOWNblock__visual_photo_parraf p{
+    background-color: rgb(102, 146, 96);
+    font-family: avenirRoman;
 }
 
