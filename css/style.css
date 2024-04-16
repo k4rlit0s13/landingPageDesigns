@@ -23,12 +23,16 @@
 
 body{
     background: linear-gradient(70deg, #C8CCCF, #97A3A3);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     gap: 500px;
     margin: 50px;
 
@@ -41,12 +45,29 @@ main{
 .TOP{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     gap: 50px;
 }
 .TOP__title h1{
     font-size: 5rem;
-
+    font-family: poppinsBold;
+}
+.TOP__botton a{
+    background: #000;
+    border-radius: 30px;
+    padding: 1rem 2rem 1rem 2rem;
+    
+    color: #fff;
+    font-family: poppinsRegular;
+    text-decoration: none;
+}
+.TOP__parraf p{
+    font-family: poppinsRegular;
+    font-size: 3rem;
+}
+.TOP__botton{
+    font-family: poppinsRegular;
 }
 .DOWN{
     width: 60%;
@@ -57,9 +78,14 @@ main{
 
     gap:50px;
     background-color: #97a3a369;
-    border-radius: 30px;
+    border-radius: 90px;
     padding: 50px;
 }
 .DOWN__BLOCK{
     gap: 30px;
 }
+.DOWN__BLOCK p{
+    gap: 30px;
+    font-family: poppinsSemiBold;
+}
+
