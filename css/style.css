@@ -7,27 +7,37 @@
 }
 
 main{
-    
+    background-color: blue;
 }
 .TOP {
+    background-color: red
 }
 .DOWN {
+    background-color: rebeccapurple
 }
 .DOWN__block1 {
+    background-color: violet
 }
 .DOWNblock1__number {
+    background-color: yellow
 }
 .DOWNblock1__parraf {
+    background-color: yellowgreen
 }
 .DOWNblock1__visual {
+    background-color: maroon
 }
 .DOWNblock1__visual_photo {
+    background-color: magenta
 }
 .DOWNblock1__visual_photo_subtitle {
+    background-color: lawngreen
 }
 .DOWNblock1__visual_photo_parraf {
+    background-color: olive
 }
 .DOWN__block2 {
+    background-color: pink
 }
 .DOWNblock2__number {
 }
@@ -42,6 +52,7 @@ main{
 .DOWNblock2__visual_photo_parraf {
 }
 .DOWN__block3 {
+    background-color: green
 }
 .DOWNblock3__number {
 }
@@ -56,6 +67,7 @@ main{
 .DOWNblock3__visual_photo_parraf {
 }
 .DOWN__block4 {
+    background-color: rgb(209, 24, 163)
 }
 .DOWNblock4__number {
 }
