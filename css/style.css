@@ -17,4 +17,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(70deg, #9C2004, #AB2706);
+    
+    
+}
+.LEFT_SIDE {
+    background-color: rgb(111, 255, 0)
+}
+.RIGHT_SIDE {
+    background-color: rgb(0, 251, 255)
+}
+.RIGHT_SIDE_ {
+    background-color: rgb(0, 94, 255)
+}
 
