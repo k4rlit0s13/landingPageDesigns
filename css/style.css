@@ -17,7 +17,7 @@
 }
 
 main{
-    background-color: blue;
+    /* background-color: blue; */
 
     display: flex;
     flex-direction: column;
@@ -26,60 +26,92 @@ main{
     margin: 20px;
 }
 .TOP {
-    background-color: red;
+    /* background-color: red; */
 }
 .TOP h1{
-    background-color: rgb(131, 18, 18);
+    /* background-color: rgb(131, 18, 18); */
     font-size: 6rem;
     font-family: avenirHeavy;
     line-height: 115px;
 }
 .DOWN {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
 
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 .DOWN__block {
-    background-color: violet;
+    /* background-color: rgb(130, 238, 171); */
 
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    width: 100%;
 }
 .DOWNblock__number {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .DOWNblock__number h2{
-    background-color: rgb(129, 129, 81);
+    /* background-color: rgb(129, 129, 81); */
     font-family: avenirHeavy;
+
+    color: #252525;
+    opacity: 35%;
+    font-size: 4rem;
 }
 .DOWNblock__parraf {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 .DOWNblock__parraf p{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     font-family: avenirRoman;
+    
+    color: #252525;
+    opacity: 80%;
+    font-size: 2rem;
 }
 .DOWNblock__visual {
-    background-color: maroon;
+    /* background-color: maroon; */
+
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 15px;
+    padding: 5px 10px;
 }
 .DOWNblock__visual_photo {
-    background-color: magenta;
+    /* background-color: magenta; */
+}
+.DOWNblock__visual_botton{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.349), rgba(255, 192, 203, 0));
+
+    padding: 20px;
+    border-radius: 0 30px 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    position: relative;
+    bottom: 124px;
+}
+.DOWNblock__visual_photo img{
+    width: 100%;
+    max-width: 100%;
 }
 .DOWNblock__visual_photo_subtitle {
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
 }
-.DOWNblock__visual_photo_subtitle h1{
-    background-color: rgb(121, 141, 102);
-    font-family: avenirHeavy;
+.DOWNblock__visual_photo_subtitle h3{
+    /* background-color: rgb(121, 141, 102); */
+    font-family: avenirRoman;
 }
 .DOWNblock__visual_photo_parraf {
-    background-color: olive;
+    /* background-color: olive; */
 }
 .DOWNblock__visual_photo_parraf p{
-    background-color: rgb(102, 146, 96);
+    /* background-color: rgb(102, 146, 96); */
     font-family: avenirRoman;
 }
 
