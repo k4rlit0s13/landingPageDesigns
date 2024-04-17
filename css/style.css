@@ -18,6 +18,34 @@
 }
 
 
-main{}
-
-.
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section__TOP{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.section__TOP__block__left{
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.section__TOP__block__right{
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.section__DOWN{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
