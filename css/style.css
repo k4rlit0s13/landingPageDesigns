@@ -1,8 +1,79 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: poppinsBold;
+    src: url(/storage/font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(/storage/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url(/storage/font/Poppins-SemiBold.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: #2F2F2F;
+}
+main{
+    margin: 50px;
+}
+
+.ALL{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.section__left{
+    width: 30%;
+    gap: 30px;
+}
+
+.section__left__1{
+    font-size: 6rem;
+    color: #FEC3C7;
+    font-family: poppinsBold;
+}
+
+.section__left__2{
+    font-size: 6rem;
+    color: #9AD7F3;
+    font-family: poppinsBold;
+}
+
+.section__left__3{
+    font-size: 6rem;
+    color: #6BDFDA;
+    font-family: poppinsBold;
+}
+.section__left__parraf{
+    font-size: 2rem;
+    color: #fff;
+    width: 90%;
+}
+.section__left__botton{
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 1rem 2rem 1rem 2rem;
+    
+    color: #000;
+    font-family: poppinsRegular;
+    text-decoration: none;
+}
+.section__right{
+    display: flex
+    flexd;
+
+    width: 50%;
 }
 
