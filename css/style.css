@@ -35,7 +35,7 @@ main{
 
 .section__left{
     width: 30%;
-    gap: 30px;
+    gap: 20px;
 }
 
 .section__left__1{
@@ -55,6 +55,10 @@ main{
     color: #6BDFDA;
     font-family: poppinsBold;
 }
+.section__left__sub{
+    display: flex;
+    flex-direction: column;
+}
 .section__left__parraf{
     font-size: 2rem;
     color: #fff;
@@ -65,15 +69,27 @@ main{
     border-radius: 30px;
     margin-top: 50px;
     padding: 1rem 2rem 1rem 2rem;
+
+    width: 120px;
     
     color: #000;
     font-family: poppinsRegular;
     text-decoration: none;
 }
 .section__right{
-    display: flex
-    flexd;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 50%;
+}
+.section__right section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section__right section img{
+    width: 172px;
+    height: 192px;
+    padding: 5px;
 }
 
