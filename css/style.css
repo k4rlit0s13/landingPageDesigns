@@ -1,5 +1,14 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: timesRegular;
+    src: url(/storage/font/Times\ Regular.ttf);
+}
+
+@font-face {
+    font-family: poppinsRegular;
+    src: url(/storage/font/Poppins-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
