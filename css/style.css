@@ -4,7 +4,10 @@
     font-family: timesRegular;
     src: url(/storage/font/Times\ Regular.ttf);
 }
-
+@font-face {
+    font-family: timesBold;
+    src: url(/storage/font/Times\ CE\ Bold.otf);
+}
 @font-face {
     font-family: poppinsRegular;
     src: url(/storage/font/Poppins-Regular.ttf);
@@ -21,22 +24,85 @@ main{
     flex-direction: row;
 }
 .BOX__LEFT{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 33.33%;
 }
-
+.estrella1{
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.BOX__LEFT section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.explosion{
+    width: 200px;
+}
+.BOX__LEFT p{
+    color: #252525;
+    opacity: 80%;
+    font-size: 2rem;
+    font-family: timesRegular;
+}
 .BOX__MIDDLE{
+    background: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    gap: 20px;
+    width: 33.33%;
+}
+.BOX__MIDDLE h1{
+    text-align: center;
+    font-size: 6rem;
+    font-family: timesRegular;
+}
+.BOX__MIDDLE p{
+    width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: timesRegular;
+}
+.BOX__MIDDLE a{
+    background: #000;
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    color: #fff;
+    font-family: poppinsRegular;
+    text-decoration: none;
 }
 .BOX__MIDDLE img{
     position: absolute;
     z-index: -1;
 }
 .BOX__RIGHT{
-    
-}
- 
+    background: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 33.33%;
+}
+.BOX__RIGHT p{
+    color: #252525;
+    opacity: 80%;
+    font-size: 2rem;
+    font-family: timesRegular;
+}
+.este
+
+h3{
+    color: #252525;
+    opacity: 45%;
+    font-family: timesBold;
+    font-size: 2rem;
+}
