@@ -17,12 +17,23 @@
 
 main{
     margin: 50px;
+    display: flex;
+    flex-direction: row;
 }
 .BOX__LEFT{
 
 }
-.BOX__MIDDLE{
 
+.BOX__MIDDLE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.BOX__MIDDLE img{
+    position: absolute;
+    z-index: -1;
 }
 .BOX__RIGHT{
     
