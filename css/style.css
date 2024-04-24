@@ -1,5 +1,18 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: timesRegular;
+    src: url(/storage/font/Times\ Regular.ttf);
+}
+@font-face {
+    font-family: timesBold;
+    src: url(/storage/font/Times\ CE\ Bold.otf);
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url(/storage/font/Poppins-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +25,7 @@ main{
     flex-direction: row;
     justify-content: center;
     margin: 30px;
+    gap: 20px;
 }
 .left{
     background-color: blue;
@@ -19,19 +33,65 @@ main{
     flex-direction: column;
 
     width: 33%;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.left__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left h1{
+    font-size: 5rem;
+    font-family: timesRegular;
+}
+.left p{
+    width: 500px;
+    font-size: 1.5rem;
+    font-family: timesRegular;
+}
+.left a{
+    font-family: poppinsRegular;
+    /* background-color: yellow; */
+
+    background: #457D61;
+    border-radius: 30px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    width: 160px;
+    
+    color: #FFF;
+    text-decoration: none;
 }
 .left__img{
     background-color: orange;
     display: flex;
     flex-direction: row; 
+    justify-content: space-evenly;
+}
+.left__img1{
+    display: flex;
+    align-items: end;
+}
+.left__img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.star1{
+    position: relative;
+    bottom: 670px;
+    left: 60px;
 }
 .middle{
     background-color: olive;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.middle__title{
+    position: relative;
+    top: 100px;
 }
 .right{
     background-color: yellow;
@@ -46,4 +106,28 @@ main{
     background-color: orangered;
     display: flex;
     flex-direction: row; 
+    justify-content: space-evenly;
+}
+.right h1{
+    font-size: 5rem;
+    font-family: timesRegular;
+}
+.right p{
+    width: 430px;
+    font-size: 2rem;
+    font-family: timesRegular;
+}
+.image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.star2{
+    width: 60;
+}
+.image3{
+    display: flex;
+    align-items: end;
 }
