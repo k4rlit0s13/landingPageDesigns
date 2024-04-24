@@ -24,23 +24,27 @@
 }
 
 main{
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
 
-    margin: 50px;
-
+    margin: 0 50px 50px;
+    justify-content: center;
 }
 .left {
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
 
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 .Left_jump{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    position: relative;
+    top: 300px;
 }
 .title {
     font-family: poppinsBold;
@@ -48,38 +52,47 @@ main{
 }
 .parraf {
     font-family: poppinsLight;
+    font-size: 2.4rem;
 }
 .botton {
     font-family: poppinsRegular;
-    background-color: yellow;
+    /* background-color: yellow; */
 
     background: #FFDE81;
     border-radius: 30px;
     padding: 1rem 2rem 1rem 2rem;
 
-    width: 23vw;
+    width: 12vw;
     
     color: #000;
     font-family: poppinsRegular;
     text-decoration: none;
 }
 .Left_bottom{
-    background-color: violet;
+    background-color: #2C1001;
+    padding: 30px;
+    border-radius: 30px;
+
+    color: #FFF;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
     position: relative;
-    bottom: 0px;
+    top: 340px;
 }
 .Left_bottom h3{
     font-family: poppinsSemiBold;
-
 }
 .Left_bottom p{
     font-family: poppinsRegular;
+    
 }
 
 .right {
-    background-color: blue;
+    display: flex;
+    justify-content: start;
+    /* background-color: blue; */
     width: 50%;
 }
 .right img{
