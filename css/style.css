@@ -6,3 +6,43 @@
     box-sizing: border-box;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+
+    margin: 50px;
+
+}
+.left {
+    background-color: red;
+    width: 50%;
+
+    border: 5px solid red;
+}
+.Left_jump{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+
+}
+.title {
+}
+.parraf {
+}
+.botton {
+}
+.Left_botton{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    
+}
+.right {
+    background-color: blue;
+    width: 50%;
+
+    border: 5px solid red;
+}
+.right img{
+    width: 100%;
+}
