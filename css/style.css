@@ -20,7 +20,7 @@
 }
 
 main{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,7 +28,7 @@ main{
     gap: 20px;
 }
 .left{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
 
@@ -63,7 +63,7 @@ main{
     text-decoration: none;
 }
 .left__img{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     flex-direction: row; 
     justify-content: space-evenly;
@@ -83,7 +83,7 @@ main{
     left: 60px;
 }
 .middle{
-    background-color: olive;
+    /* background-color: olive; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,7 +94,7 @@ main{
     top: 100px;
 }
 .right{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
 
@@ -103,7 +103,7 @@ main{
     justify-content: space-between;
 }
 .right__img{
-    background-color: orangered;
+    /* background-color: orangered; */
     display: flex;
     flex-direction: row; 
     justify-content: space-evenly;
