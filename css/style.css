@@ -21,6 +21,41 @@
     box-sizing: border-box;
 }
 
-header{
 
+body{
+    margin: 30px;
+}
+.header{
+    background-color: red;
+}
+.main{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+.main__bigImage img{
+    width: 100%;
+}
+.main__3images{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.main__3images img{
+    width: 100%;
+}
+.float__section{
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+}
+.header a{
+    background: #000;
+    border-radius: 10px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    color: #fff;
+    font-family: avenirRoman;
+    text-decoration: none;
 }
