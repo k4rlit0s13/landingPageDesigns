@@ -1,8 +1,26 @@
 @import url(variables.css);
 
+
+@font-face {
+    font-family: "poppins_SemiBold";
+    src: url(/storage/font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Avenir_Heavy";
+    src: url(/storage/font/Metropolis-SemiBold.otf);
+}
+@font-face {
+    font-family: "Avenir_Roman";
+    src: url(/storage/font/Metropolis-Regular.otf);
+}
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+header{
+
+}
