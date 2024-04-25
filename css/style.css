@@ -1,5 +1,22 @@
 @import url(variables.css);
 
+
+@font-face {
+    font-family: Lato_Bold;
+    src: url(/storage/font/Lato-Bold.ttf)
+}
+
+@font-face {
+    font-family: Lato_Regular;
+    src: url(/storage/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato_Medium;
+    src: url(/storage/font/Lato-Thin.ttf);
+}
+
+
 *{
     padding: 0;
     margin: 0;
