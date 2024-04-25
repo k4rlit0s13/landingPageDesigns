@@ -11,10 +11,6 @@
     src: url(/storage/font/Lato-Regular.ttf);
 }
 
-@font-face {
-    font-family: Lato_Medium;
-    src: url(/storage/font/Lato-Thin.ttf);
-}
 
 
 *{
@@ -23,3 +19,52 @@
     box-sizing: border-box;
 }
 
+main{
+
+
+    width: 1920px;
+    height: 960px;
+
+    background-image: url(/storage/img/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -300px;
+}
+
+header{
+
+    /* background-color: red; */
+
+    position: relative;
+    top: 70px;
+    left: 620px;
+
+    width: 676px;
+    height: 418px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    gap: 50px;
+}
+
+h1{
+    font-family: Lato_Bold;
+    font-size: 5rem;
+}
+p{
+    font-family: Lato_Regular;
+    font-size: 1.5rem;
+}
+a{
+    background: #000;
+    border-radius: 50px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    color: #fff;
+    font-family: Lato_Regular;
+    text-decoration: none;
+}
