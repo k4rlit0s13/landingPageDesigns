@@ -6,6 +6,10 @@
     src: url(/storage/font/Poppins-SemiBold.ttf);
 }
 @font-face {
+    font-family: "poppins_Regular";
+    src: url(/storage/font/Poppins-Regular.ttf);
+}
+@font-face {
     font-family: "Avenir_Heavy";
     src: url(/storage/font/Metropolis-SemiBold.otf);
 }
@@ -21,17 +25,70 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: "poppins_SemiBold";
+    font-size: 6rem;
+}
+h4{
+    font-family: "Avenir_Heavy";
+    font-size: 2rem;
+}
+p{
+    font-family: "Avenir_Roman";
+    font-size: 2rem;
+}
+a{
+    font-family: "poppins_Regular";
+}
 
 body{
+
+    
+    background: #F2F2F2;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 30px;
+    gap: 200px;
 }
 .header{
     background-color: red;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header div{
+    background-color: yellowgreen;
+}
+.header__parraf{
+    text-align: center;
+    width: 60vw;
+}
+.header a{
+    background: #000;
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem 2rem;
+
+    color: #fff;
+    font-family: avenirRoman;
+    text-decoration: none;
+    font-size: 2rem;
 }
 .main{
     background-color: orange;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+}
+.main img{
+    min-height: 470px;
 }
 .main__bigImage img{
     width: 100%;
@@ -39,23 +96,25 @@ body{
 .main__3images{
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
-.main__3images img{
-    width: 100%;
+    justify-content: space-between;
 }
 .float__section{
-    background-color: blue;
+    background-color: white;
 
+    width: 80vw;
     display: flex;
     flex-direction: row;
-}
-.header a{
-    background: #000;
-    border-radius: 10px;
-    padding: 1rem 2rem 1rem 2rem;
+    justify-content: space-evenly;
+    padding: 30px;
+    border-radius: 20px;
 
-    color: #fff;
-    font-family: avenirRoman;
-    text-decoration: none;
+    gap: 0px;
+
+    position: absolute;
+    top: 550px;
+    left: 200px;
 }
+
+
+
+
