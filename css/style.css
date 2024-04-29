@@ -10,22 +10,80 @@
 .top{
     display: flex;
     flex-direction: row;
+
+    margin: 30px;
 }
 .Left{
+    background-color: red;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 30px;
+
+
+}
+
+.Right{
+    background-color: blue;
+
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+.Right1{
+    background-color: blanchedalmond;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+    
+    gap: 30px;
+}
+.Right1__1{
+    display: flex;
+    flex-direction: column;
+}
+.Right0_1{
+    display: flex;
+    flex-direction: row;
+}
+.Right2{    
+    background-color: blanchedalmond;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+
+    gap: 30px;
+}
+.Right0_2{
+    display: flex;
+    flex-direction: row;
+}
+.Right1__1{
     display: flex;
     flex-direction: column;
 }
 
-.Right{
-    display: flex;
-    flex-direction: row;
-}
 .Down{
+    background-color: yellowgreen;
+
     display: flex;
     flex-direction: row;
+
+    color: #FFF;
+    font-family: "LatoRegular";
+
+    margin: 30px;
 }
 .top h1{
     font-family: LatoBold;
+    font-size: 6rem;
 }
 .top h3{
     font-family: LatoBold;
@@ -35,4 +93,37 @@
 }
 .top a{
     font-family: LatoRegular;
+}
+
+
+
+
+
+.Down1{
+    background-color: salmon;
+
+    background-image: url(../storage/img/img7.svg);
+
+    width: 25%;
+}
+.Down2{
+    background-color: salmon;
+
+    background-image: url(../storage/img/img8.svg);
+
+    width: 25%;
+}
+.Down3{
+    background-color: salmon;
+
+    background-image: url(../storage/img/img9.svg);
+
+    width: 25%;
+}
+.Down4{
+    background-color: salmon;
+
+    background-image: url(../storage/img/img10.svg);
+
+    width: 25%;
 }
