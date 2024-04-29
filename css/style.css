@@ -6,3 +6,21 @@
     box-sizing: border-box;
 }
 
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.Left{
+    display: flex;
+    flex-direction: column;
+}
+
+.Right{
+    display: flex;
+    flex-direction: row;
+}
+.Down{
+    display: flex;
+    flex-direction: row;
+}
