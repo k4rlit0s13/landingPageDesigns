@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: AvenirHeavy;
-    src: url(/storage/font/Avenir\ Heavy.ttf);
+    src: url(storage/font/Avenir\ Heavy.ttf);
 }
 @font-face {
     font-family: AvenirRoman;
-    src: url(/storage/font/AvenirLTStd-Roman.ttf);
+    src: url(storage/font/AvenirLTStd-Roman.ttf);
 
 }
 
