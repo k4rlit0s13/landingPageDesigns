@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: PlayfairDisplayBold;
-    src: url(/storage/font/PlayfairDisplay-Bold.ttf);
+    src: url(storage/font/PlayfairDisplay-Bold.ttf);
 }
 
 @font-face {
     font-family: WorkSansRegular;
-    src: url(/storage/font/WorkSans-Regular.ttf);
+    src: url(storage/font/WorkSans-Regular.ttf);
 }
 @font-face {
     font-family: WorkSansMedium;
-    src: url(/storage/font/WorkSans-Medium.ttf);
+    src: url(storage/font/WorkSans-Medium.ttf);
 }
 
 
