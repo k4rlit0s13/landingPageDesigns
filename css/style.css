@@ -3,19 +3,19 @@
 
 @font-face {
     font-family: "poppins_SemiBold";
-    src: url(/storage/font/Poppins-SemiBold.ttf);
+    src: url(storage/font/Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: "poppins_Regular";
-    src: url(/storage/font/Poppins-Regular.ttf);
+    src: url(storage/font/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: "Avenir_Heavy";
-    src: url(/storage/font/Metropolis-SemiBold.otf);
+    src: url(storage/font/Metropolis-SemiBold.otf);
 }
 @font-face {
     font-family: "Avenir_Roman";
-    src: url(/storage/font/Metropolis-Regular.otf);
+    src: url(storage/font/Metropolis-Regular.otf);
 }
 
 
