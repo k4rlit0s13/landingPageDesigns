@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: workSansBold;
-    src: url(/storage/font/WorkSans-Bold.ttf);
+    src: url(storage/font/WorkSans-Bold.ttf);
 }
 
 @font-face {
     font-family: workSansLight;
-    src: url(/storage/font/WorkSans-Light.ttf);
+    src: url(storage/font/WorkSans-Light.ttf);
 }
 
 
