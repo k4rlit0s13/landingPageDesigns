@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: timesRegular;
-    src: url(/storage/font/Times\ Regular.ttf);
+    src: url(storage/font/Times\ Regular.ttf);
 }
 @font-face {
     font-family: timesBold;
-    src: url(/storage/font/Times\ CE\ Bold.otf);
+    src: url(storage/font/Times\ CE\ Bold.otf);
 }
 @font-face {
     font-family: poppinsRegular;
-    src: url(/storage/font/Poppins-Regular.ttf);
+    src: url(storage/font/Poppins-Regular.ttf);
 }
 
 *{
