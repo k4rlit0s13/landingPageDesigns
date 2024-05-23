@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: poppinsBold;
-    src: url(/storage/font/Poppins-Bold.ttf);
+    src: url(storage/font/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: poppinsRegular;
-    src: url(/storage/font/Poppins-Regular.ttf);
+    src: url(storage/font/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: poppinsSemiBold;
-    src: url(/storage/font/Poppins-SemiBold.ttf);
+    src: url(storage/font/Poppins-SemiBold.ttf);
 }
 
 *{
