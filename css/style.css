@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: Lato_Bold;
-    src: url(/storage/font/Lato-Bold.ttf)
+    src: url(storage/font/Lato-Bold.ttf)
 }
 
 @font-face {
     font-family: Lato_Regular;
-    src: url(/storage/font/Lato-Regular.ttf);
+    src: url(storage/font/Lato-Regular.ttf);
 }
 
 
@@ -25,7 +25,7 @@ main{
     width: 1920px;
     height: 960px;
 
-    background-image: url(/storage/img/fondo.svg);
+    background-image: url(storage/img/fondo.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -300px;
