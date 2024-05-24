@@ -1,15 +1,15 @@
 @import url(variables.css);
 @font-face {
     font-family: "bitterbold";
-    src: url(/storage/font/Bitter-Bold.ttf);
+    src: url(storage/font/Bitter-Bold.ttf);
 }
 @font-face {
     font-family: "title";
-    src: url(/storage/font/Bitter-ExtraBold.ttf);
+    src: url(storage/font/Bitter-ExtraBold.ttf);
 }
 @font-face {
     font-family: "titleSubText";
-    src: url(/storage/font/SpaceMono-Regular.ttf);
+    src: url(storage/font/SpaceMono-Regular.ttf);
 }
 *{
     padding: 0;
